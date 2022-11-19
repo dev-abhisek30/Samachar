@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/storyFragment"
+        android:icon="@drawable/ic_stories"
+        android:title="@string/top_stories" />
+
+    <item
+        android:id="@+id/sourceFragment"
+        android:icon="@drawable/ic_sources"
+        android:title="@string/sources" />
+
+    <item
+        android:id="@+id/categoryFragment"
+        android:icon="@drawable/ic_categories"
+        android:title="@string/categories" />
+
 </menu>
