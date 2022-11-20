@@ -22,7 +22,7 @@
     </style>
 
     <style name="Theme.TextView" parent="Widget.AppCompat.TextView">
-        <item name="android:fontFamily">@font/nunito_sans</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">18sp</item>
@@ -30,7 +30,7 @@
 
     <style name="Theme.BottomNavigationView"
         parent="Widget.Design.BottomNavigationView">
-        <item name="fontFamily">@font/nunito_sans</item>
+        <item name="fontFamily">@font/opensans_regular</item>
         <item name="android:minHeight">0dp</item>
     </style>
 </resources>
