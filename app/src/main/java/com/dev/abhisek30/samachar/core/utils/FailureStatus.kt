@@ -1,0 +1,25 @@
+package com.dev.abhisek30.samachar.core.utils
+
+enum class FailureStatus {
+    EMPTY,
+    API_FAIL,
+    NO_INTERNET,
+    ACCESS_DENIED,
+    USER_UNAPPROVED,
+
+    INCOMPLETE_ONBOARDING,
+
+    BAD_REQUEST,
+    UNAUTHORISED_REQUEST,
+    FORBIDDEN_RESOURCE,
+    RESOURCE_NOT_FOUND,
+    LARGE_PAYLOAD,
+
+    SERVER_ERROR,
+    UNSUPPORTED_REQUEST,
+    BAD_GATEWAY,
+    SERVER_MAINTENANCE,
+    ALREADY_EXIST,
+
+    OTHER
+}
