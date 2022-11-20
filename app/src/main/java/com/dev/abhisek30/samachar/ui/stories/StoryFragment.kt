@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import com.dev.abhisek30.samachar.R
 import com.dev.abhisek30.samachar.databinding.FragmentSourceBinding
 import com.dev.abhisek30.samachar.databinding.FragmentStoryBinding
@@ -21,6 +22,8 @@ class StoryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentStoryBinding.inflate(inflater, container, false)
+        binding.layoutToolbarRoot.ivBack.isVisible = false
+        binding.layoutToolbarRoot.tvTitle.text = "Top Stories"
         return binding.root
     }
 

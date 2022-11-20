@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import com.dev.abhisek30.samachar.R
 import com.dev.abhisek30.samachar.databinding.FragmentCategoryBinding
 import com.dev.abhisek30.samachar.databinding.FragmentSourceBinding
@@ -21,6 +22,8 @@ class SourceFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentSourceBinding.inflate(inflater, container, false)
+        binding.layoutToolbarRoot.ivBack.isVisible = false
+        binding.layoutToolbarRoot.tvTitle.text = "Sources"
         return binding.root
     }
 

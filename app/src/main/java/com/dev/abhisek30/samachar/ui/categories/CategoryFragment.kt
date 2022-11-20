@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import com.dev.abhisek30.samachar.databinding.FragmentCategoryBinding
 
 class CategoryFragment : Fragment() {
@@ -18,6 +19,7 @@ class CategoryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentCategoryBinding.inflate(inflater, container, false)
+        binding.layoutToolbarRoot.ivBack.isVisible = false
         return binding.root
     }
 
